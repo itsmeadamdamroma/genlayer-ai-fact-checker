@@ -41,28 +41,28 @@ This creates a **trustless, decentralized truth layer** — no single entity dec
 ┌─────────────────────────────────────────────────┐
 │          GenLayer Bradbury Testnet              │
 │                                                 │
-│  ┌─────────────────────────────────────────┐   │
-│  │        AIFactChecker Contract           │   │
-│  │                                         │   │
-│  │  1. gl.get_webpage(source_url)         │   │
-│  │     → Fetches web evidence             │   │
-│  │                                         │   │
-│  │  2. gl.exec_prompt(analysis_task)      │   │
-│  │     → AI evaluates claim vs evidence   │   │
-│  │                                         │   │
-│  │  3. gl.eq_principle_strict_eq()        │   │
-│  │     → Validators reach consensus       │   │
-│  └─────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────┐    │
+│  │        AIFactChecker Contract           │    │
+│  │                                         │    │
+│  │  1. gl.get_webpage(source_url)          │    │
+│  │     → Fetches web evidence              │    │
+│  │                                         │    │
+│  │  2. gl.exec_prompt(analysis_task)       │    │
+│  │     → AI evaluates claim vs evidence    │    │
+│  │                                         │    │
+│  │  3. gl.eq_principle_strict_eq()         │    │
+│  │     → Validators reach consensus        │    │
+│  └─────────────────────────────────────────┘    │
 │                                                 │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐     │
-│  │Validator │  │Validator │  │Validator │     │
-│  │  LLM A   │  │  LLM B   │  │  LLM C   │     │
-│  └──────────┘  └──────────┘  └──────────┘     │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐       │
+│  │Validator │  │Validator │  │Validator │       │
+│  │  LLM A   │  │  LLM B   │  │  LLM C   │       │
+│  └──────────┘  └──────────┘  └──────────┘       │
 └─────────────────────────────────────────────────┘
                        │
                        ▼
             ┌──────────────────┐
-            │  On-Chain Verdict │
+            │  On-Chain Verdict│
             │  TRUE / FALSE /  │
             │  UNVERIFIABLE    │
             └──────────────────┘
