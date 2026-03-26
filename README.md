@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://genlayer.com/images/logo.svg" alt="GenLayer" width="60" />
-</p>
-
 <h1 align="center">🔍 AI Fact Checker — Intelligent Contract</h1>
 
 <p align="center">
