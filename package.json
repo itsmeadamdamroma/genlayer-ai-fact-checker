@@ -1,0 +1,20 @@
+{
+  "name": "genlayer-ai-fact-checker",
+  "version": "1.0.0",
+  "description": "Decentralized AI-powered fact verification on GenLayer Bradbury Testnet",
+  "main": "contracts/ai_fact_checker.py",
+  "scripts": {
+    "deploy": "genlayer deploy --contract contracts/ai_fact_checker.py"
+  },
+  "keywords": [
+    "genlayer",
+    "intelligent-contract",
+    "ai",
+    "fact-checker",
+    "bradbury",
+    "testnet",
+    "blockchain"
+  ],
+  "author": "itsmeadamdamroma",
+  "license": "MIT"
+}
